@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+}
+
+.left-side{
+    flex: 3;
+    background: url("resources/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(9, 9, 9, 0.5);
+    margin-top: 18rem;
+}
+
+.logo p
+{
+    color: white; 
+    font-size: 5rem;
+}
+
+.logo img{
+    height:15%;
+    width: 15%;
+}
+
+.right-side{
+    flex: 5;
+    background-color: #f9fafb;
+}
+
+.message,
+form p{
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+
+.message{
+    margin-top: 15%;
+    padding-right: 15%;
+    padding-left: 5%;
+
+}
+
+.message p:first-child{
+    margin-bottom: 2rem;
+}
+
+form{
+    padding: 2% 0 2% 0;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    background-color: #fffffe ;
+}
+
+
+form p,
+.inputs,
+.right-side .bottom{
+margin-left: 5%;
+
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+
+.inputs
+{
+    display: flex;
+}
+
+.column
+{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+.bottom button
+{
+    margin-bottom: 2%;
+}
+
+
