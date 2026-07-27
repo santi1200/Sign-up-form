@@ -1,13 +1,37 @@
+@font-face {
+  font-family: "norse";
+  src:
+    url("resources/font/norse-webfont.woff2") format("woff2"),
+    url("resources/font/norse-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nort-medium";
+  src:
+    url("resources/second-font/ff-nort-medium.woff2") format("woff2"),
+    url("resources/second-font/ff-nort-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "nort-medium" ;
+
 }
 
 body
 {
     height: 100vh;
     display: flex;
+    
 }
 
 .left-side{
@@ -54,8 +78,10 @@ body
 
 .logo p
 {
+    font-family: "norse";
     color: white; 
-    font-size: 5rem;
+    font-size: 6rem;
+    font-weight: bold;
 }
 
 .logo img{
