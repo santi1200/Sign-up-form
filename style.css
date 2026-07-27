@@ -34,6 +34,11 @@ body
     
 }
 
+#photo-credits a 
+{
+    color: white;
+}
+
 .logo
 {
     margin-top: 16rem;
@@ -65,9 +70,13 @@ body
 
 .message,
 form p{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     
+}
+
+.message .italic{
+    font-style: italic;
 }
 
 .message{
@@ -89,6 +98,9 @@ form{
    box-shadow: 0px 20px 20px -20px rgb(188, 182, 182);
 }
 
+form p{
+    color:#252e3c;
+}
 
 form p,
 .inputs,
@@ -123,19 +135,51 @@ textarea {
 .column label
 {
     font-size: 13px;
+    color: #252e3c;
 }
 
 .column input{
     margin-bottom: 20px;
     border-radius: 4px;
-    width: 300px;
+    width: 280px;
     height: 30px;
-    border: 1px solid #e3e5e9;
+    border: 1px solid #E5E7EB;
     padding: 0 8px;
    
+}
+
+input:focus
+{
+    outline: none;
+    border: 1px solid blue;
+     box-shadow: 2px 2px 5px rgb(188, 182, 182);
+}
+
+input[type="password"]:user-invalid
+{
+    border: 1px solid rgb(255, 0, 0);
+
 }
 
 .bottom button
 {
     margin-bottom: 2%;
+    background-color: #586c49;
+    border: 0px;
+    width: 250px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
 }
+
+.bottom button:hover
+{
+    cursor: pointer;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #586c49;
+}
+
